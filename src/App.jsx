@@ -25,7 +25,7 @@ function App() {
       {/* ************* */}
 
 
-      <section className="py-24 px-6 relative">
+      <section className="py-[5%]  px-6 relative">
         <Squares className="absolute left-12 top-12 opacity-60" />
         <Rectangles className="absolute right-0 bottom-0" />
         <div className="max-w-2xl mx-auto">
