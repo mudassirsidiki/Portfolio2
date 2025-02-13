@@ -2,7 +2,7 @@ import { AtSign, Github } from "lucide-react";
 
 const ContactSection = () => {
   return (
-    <div className="max-w-[1180px] mx-auto px-4">
+    <div id="contact" className="max-w-[1180px] mx-auto px-4">
       <h2 className="text-4xl mt-8 font-extrabold mb-4">
         <span className="text-red-600">#</span>ABOUT ME
       </h2>

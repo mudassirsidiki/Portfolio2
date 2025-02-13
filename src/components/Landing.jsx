@@ -1,34 +1,45 @@
-import { FaTwitter, FaTwitch, FaFacebookF, FaGithub, FaLinkedin, FaInstagram  } from "react-icons/fa"
-import { SiBehance } from "react-icons/si"
+import {
+  FaTwitter,
+  FaTwitch,
+  FaFacebookF,
+  FaGithub,
+  FaLinkedin,
+  FaInstagram,
+} from "react-icons/fa";
+import { SiBehance } from "react-icons/si";
 
 function Landing() {
   return (
     <div className="min-h-[50vh] lg:min-h-screen bg-black text-white p-8 relative overflow-hidden">
-
-      
-      
       {/* Larger Devices (Above 1020px) */}
       <div className="hidden lg:flex">
         <div className="max-w-7xl grid grid-cols-1 lg:grid-cols-2 gap-12 mt-20">
           <div className="space-y-6">
-            <h1 className="text-[37px] font-extrabold w-[500px]">
-              Mudassir Ahmed Siddiqui <br />{" "}
-              <span className="text-red-700"> is an Al/ML engineer</span> and
+            <h1 className="text-[39px] font-extrabold w-[500px]">
+              Mudassir Ahmed Siddiqui <br />
+              <span className="text-red-700 text-[34px]">
+                {" "}
+                is a Frontend Developer
+              </span>{" "}
+              and
               <br />
-              <span className="text-red-700">Data Scientist</span>
+              <span className="text-red-700 text-[34px]">Data Engineer</span>
             </h1>
             <p className="text-gray-400 text-[17px] w-[580px]">
               Seasoned AI/ML Engineer proficient in various stacks including
               TensorFlow, PyTorch, Scikit-learn, Keras, and MXNet. Committed to
               continuous learning and exploration in deep learning frameworks
-              such as Hugging Face Transformers and fast.ai. Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio facilis, quia nihil corrupti tenetur vero odio a temporibus explicabo recusandae incidunt tempore voluptate beatae labore laborum repudiandae perferendis ab? Fugiat!
+              such as Hugging Face Transformers and fast.ai. Lorem ipsum dolor
+              sit amet consectetur adipisicing elit. Distinctio facilis, quia
+              nihil corrupti tenetur vero odio a temporibus explicabo recusandae
+              incidunt tempore voluptate beatae labore laborum repudiandae
+              perferendis ab? Fugiat!
             </p>
-            <button className="px-4 py-2 border border-white text-white hover:bg-[red]/30 transition-colors">
-              Contact me!! 
+            <button className="px-4 py-2 border border-white text-white hover:bg-red-700 transition-colors">
+              Contact me!!
             </button>
           </div>
         </div>
-        
 
         {/* Name */}
         <div className="absolute top-8 right-8 text-right">
@@ -41,12 +52,12 @@ function Landing() {
           </h1>
         </div>
 
-        {/* Main Content */}
+        {/* Main Content - Red Circle */}
         <div className="absolute inset-0 flex items-center justify-center ml-[33%]">
           <div className="relative w-[500px] h-[500px]">
-            <div className="absolute inset-0 rounded-full border-[30px] border-red-700 shadow-[0_0_180px_rgba(280,78,88,0.5)]"></div>
+            <div className="absolute inset-0 rounded-full border-[30px] border-red-800 shadow-[0_0_180px_rgba(280,78,88,0.7)]"></div>
             <img
-              src="/images/port2.png" 
+              src="/images/port2.png"
               alt="Hooded Figure"
               className="absolute inset-0 w-full h-full h object-contain z-10"
             />
@@ -62,12 +73,12 @@ function Landing() {
         </div>
 
         {/* Navigation */}
-        <nav className="absolute right-8 top-1/2 -translate-y-1/2 flex flex-col gap-8 space-y-[98px] font-bold">
-          {["ABOUT ", "PROJECTS", "CONTACT" ].map((item) => (
+        <nav className=" absolute right-8 top-[55%] -translate-y-1/2 flex flex-col gap-8 space-y-[98px] font-bold">
+          {["PROJECTS ", "SKILLS-SET", "CONTACT"].map((item) => (
             <a
               key={item}
               href={`#${item.toLowerCase()}`}
-              className="text-lg tracking-widest hover:text-red-600 transition-colors transform -rotate-90"
+              className="text-[20px] tracking-widest hover:text-red-600 transition-colors transform -rotate-90"
             >
               {item}
             </a>
@@ -86,18 +97,8 @@ function Landing() {
 
       {/* Mobile Layout (Below 1020px) */}
       <div className="lg:hidden flex flex-col items-center text-center space-y-8">
-        {/* Navigation */}
-        <nav className="w-full flex justify-center py-4  text-white">
-          {["ABOUT", "PROJECTS", "CONTACT"].map((item) => (
-            <a
-              key={item}
-              href={`#${item.toLowerCase()}`}
-              className="mx-4 text-lg tracking-widest hover:text-red-600 transition-colors"
-            >
-              {item}
-            </a>
-          ))}
-        </nav>
+
+
 
         {/* Social Links */}
         <div className="flex space-x-6">
@@ -108,13 +109,47 @@ function Landing() {
           <FaInstagram className="w-6 h-6 hover:text-red-600 transition-colors cursor-pointer" />
         </div>
 
+
+
+        {/* Navigation */}
+        <nav className="w-full flex justify-center py-2  text-white">
+          {["SKILLS-SET", "PROJECTS", "CONTACT"].map((item) => (
+            <a
+              key={item}
+              href={`#${item.toLowerCase()}`}
+              className="mx-4 text-[15px] tracking-widest hover:text-red-600 transition-colors"
+            >
+              {item}
+            </a>
+          ))}
+        </nav>
+
+
+
         {/* Logo and Brand */}
         <div className="space-y-4">
-          <h1 className="text-2xl font-bold">Mudassir Ahmed Siddiqui</h1>
+          <h1 className="text-[26px] font-extrabold w-[370px]">
+            Mudassir Ahmed Siddiqui <br />
+            <span className="text-red-700 text-[25px]">
+              {" "}
+              is a Frontend Developer
+            </span>{" "}
+            and
+            <br />
+            <span className="text-red-700 text-[25px]">Data Engineer</span>
+          </h1>
           <p className="text-gray-400 max-w-md">
-            AI/ML Engineer | Data Scientist | Passionate about Deep Learning, NLP, and Computer Vision. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente veniam odit rerum commodi consequuntur molestiae modi molestias, fuga quia dolor sit, nihil quam incidunt eius voluptatem, totam qui iure alias! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, rerum!
+            AI/ML Engineer | Data Scientist | Passionate about Deep Learning,
+            NLP, and Computer Vision. Lorem ipsum dolor sit amet, consectetur
+            adipisicing elit. Sapiente veniam odit rerum commodi consequuntur
+            molestiae modi molestias, fuga quia dolor sit, nihil quam incidunt
+            eius voluptatem, totam qui iure alias! Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Dolores, rerum!
           </p>
         </div>
+
+
+
 
         {/* Main Content */}
         <div className="relative w-64 h-64">
@@ -127,7 +162,7 @@ function Landing() {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
 export default Landing;

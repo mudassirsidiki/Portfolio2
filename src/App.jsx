@@ -9,6 +9,7 @@ import TypewriterEffect from "./components/TypewriterEffect";
 import ContactSection from "./components/ContactSection";
 import Landing from "./components/Landing";
 import { projects, projects1, projects2, projects3, projects4, projects5, skills, skills1, skills2, skills3 } from "./components/data";
+import BackToTop from "./BackToTop";
 
 function App() {
   const navLinks = ["#home", "#works", "#about-me", "#contacts"];
@@ -39,6 +40,11 @@ function App() {
           </blockquote>
         </div>
       </section>
+
+      
+
+      <BackToTop/>
+
 
 
       {/* **************** */}
@@ -209,7 +215,7 @@ function App() {
       {/* ************** */}
 
 
-      <section className="pt-12 py-3 px-6 relative" id="skills">
+      <section className="pt-12 py-3 px-6 relative" id="skills-set">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl mb-8 font-extrabold">
             <span className="text-red-600">#</span>SKILLS
