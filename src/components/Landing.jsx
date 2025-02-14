@@ -52,14 +52,20 @@ function Landing() {
           </h1>
         </div>
 
-        {/* Main Content - Red Circle */}
+        {/* Main Content - Animated Red Circle */}
         <div className="absolute inset-0 flex items-center justify-center ml-[33%]">
           <div className="relative w-[500px] h-[500px]">
-            <div className="absolute inset-0 rounded-full border-[30px] border-red-800 shadow-[0_0_180px_rgba(280,78,88,0.7)]"></div>
+            {/* Glowing & Pulsing Red Circle */}
+            <div
+              className="absolute inset-0 rounded-full border-[30px] border-red-800 
+      shadow-[0_0_180px_rgba(255,78,88,0.7)] animate-glow"
+            ></div>
+
+            {/* Image Overlay */}
             <img
               src="/images/port2.png"
               alt="Hooded Figure"
-              className="absolute inset-0 w-full h-full h object-contain z-10"
+              className="absolute inset-0 w-full h-full object-contain z-10"
             />
           </div>
         </div>
@@ -97,9 +103,6 @@ function Landing() {
 
       {/* Mobile Layout (Below 1020px) */}
       <div className="lg:hidden flex flex-col items-center text-center space-y-8">
-
-
-
         {/* Social Links */}
         <div className="flex space-x-6">
           <FaTwitter className="w-6 h-6 hover:text-red-600 transition-colors cursor-pointer" />
@@ -109,22 +112,18 @@ function Landing() {
           <FaInstagram className="w-6 h-6 hover:text-red-600 transition-colors cursor-pointer" />
         </div>
 
-
-
         {/* Navigation */}
         <nav className="w-full flex justify-center py-2  text-white">
           {["SKILLS-SET", "PROJECTS", "CONTACT"].map((item) => (
             <a
               key={item}
               href={`#${item.toLowerCase()}`}
-              className="mx-4 text-[15px] tracking-widest hover:text-red-600 transition-colors"
+              className="mx-4 text-[13px] tracking-widest hover:text-red-600 transition-colors"
             >
               {item}
             </a>
           ))}
         </nav>
-
-
 
         {/* Logo and Brand */}
         <div className="space-y-4">
@@ -138,7 +137,7 @@ function Landing() {
             <br />
             <span className="text-red-700 text-[25px]">Data Engineer</span>
           </h1>
-          <p className="text-gray-400 max-w-md">
+          <p className="text-gray-400 max-w-md px-4">
             AI/ML Engineer | Data Scientist | Passionate about Deep Learning,
             NLP, and Computer Vision. Lorem ipsum dolor sit amet, consectetur
             adipisicing elit. Sapiente veniam odit rerum commodi consequuntur
@@ -148,18 +147,25 @@ function Landing() {
           </p>
         </div>
 
-
-
-
         {/* Main Content */}
+        {/* Main Content - Animated Red Circle */}
         <div className="relative w-64 h-64">
-          <div className="absolute inset-0 rounded-full border-[10px] border-red-700 shadow-[0_0_80px_rgba(280,78,88,0.5)]"></div>
+          {/* Glowing & Pulsing Red Circle */}
+          <div
+            className="absolute inset-0 rounded-full border-[10px] border-red-700 
+    shadow-[0_0_80px_rgba(255,78,88,0.5)] animate-glow"
+          ></div>
+
+          {/* Image Overlay */}
           <img
             src="/images/port2.png"
             alt="Hooded Figure"
             className="absolute inset-0 w-full h-full object-contain"
           />
         </div>
+
+
+
       </div>
     </div>
   );

@@ -12,7 +12,20 @@
     blink-caret .75s step-end infinite;
 }
 
+@keyframes spin-slow {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
 
+@keyframes glow {
+  0% { box-shadow: 0 0 50px rgba(255, 78, 88, 0.5); transform: scale(1); }
+  50% { box-shadow: 0 0 120px rgba(255, 78, 88, 0.9); transform: scale(1.05); }
+  100% { box-shadow: 0 0 50px rgba(255, 78, 88, 0.5); transform: scale(1); }
+}
+
+.animate-glow {
+  animation: glow 3s infinite ease-in-out;
+}
 
 
 
