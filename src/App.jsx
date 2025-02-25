@@ -20,6 +20,8 @@ function App() {
 
     <Landing/>
 
+    
+
 
       {/* ************* */}
       {/* Quote Section */}
@@ -40,6 +42,8 @@ function App() {
           </blockquote>
         </div>
       </section>
+
+      
 
       
 

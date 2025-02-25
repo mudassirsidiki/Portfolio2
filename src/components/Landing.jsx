@@ -7,6 +7,7 @@ import {
   FaInstagram,
 } from "react-icons/fa";
 import { SiBehance } from "react-icons/si";
+import TypewriterEffect from "./TypewriterEffect";
 
 function Landing() {
   return (
@@ -26,18 +27,22 @@ function Landing() {
               <span className="text-red-700 text-[34px]">Data Engineer</span>
             </h1>
             <p className="text-gray-400 text-[17px] w-[580px]">
-              Seasoned AI/ML Engineer proficient in various stacks including
-              TensorFlow, PyTorch, Scikit-learn, Keras, and MXNet. Committed to
-              continuous learning and exploration in deep learning frameworks
-              such as Hugging Face Transformers and fast.ai. Lorem ipsum dolor
-              sit amet consectetur adipisicing elit. Distinctio facilis, quia
-              nihil corrupti tenetur vero odio a temporibus explicabo recusandae
-              incidunt tempore voluptate beatae labore laborum repudiandae
-              perferendis ab? Fugiat!
+              Innovative Web Developer & Data Analyst with a strong passion for
+              building modern, user-friendly web applications and data-driven
+              solutions. Proficient in React.js, Next.js, Tailwind CSS,
+              Express.js, and MongoDB for full-stack development, along with
+              expertise in Power BI, SQL, and Python for analytics and business
+              intelligence. <br />
+              With a keen eye for design and functionality, I specialize in
+              crafting seamless digital experiences, implementing dynamic UI/UX
+              components, and optimizing backend performance. My data analytics
+              expertise allows me to extract valuable insights, create
+              interactive dashboards, and develop data-driven strategies that
+              enhance decision-making.
             </p>
-            <button className="px-4 py-2 border border-white text-white hover:bg-red-700 transition-colors">
+            {/* <button className="px-4 py-2 border border-white text-white hover:bg-red-700 transition-colors">
               Contact me!!
-            </button>
+            </button> */}
           </div>
         </div>
 
@@ -52,29 +57,23 @@ function Landing() {
           </h1>
         </div>
 
-        {/* Main Content - Animated Red Circle */}
+        {/* Main Content - Red Circle */}
         <div className="absolute inset-0 flex items-center justify-center ml-[33%]">
           <div className="relative w-[500px] h-[500px]">
-            {/* Glowing & Pulsing Red Circle */}
-            <div
-              className="absolute inset-0 rounded-full border-[30px] border-red-800 
-      shadow-[0_0_180px_rgba(255,78,88,0.7)] animate-glow"
-            ></div>
-
-            {/* Image Overlay */}
+            <div className="absolute inset-0 rounded-full border-[30px] border-red-800 shadow-[0_0_180px_rgba(280,78,88,0.7)]"></div>
             <img
               src="/images/port2.png"
               alt="Hooded Figure"
-              className="absolute inset-0 w-full h-full object-contain z-10"
+              className="absolute inset-0 w-full h-full h object-contain z-10"
             />
           </div>
         </div>
 
         {/* Role and Location */}
         <div className="absolute bottom-8 left-8">
-          <h2 className="text-3xl font-bold mb-2">Web Designer</h2>
+          <h2 className="text-3xl font-bold mb-2">Data Guru by Day,</h2>
           <p className="text-lg">
-            From <span className="text-red-600">PORTUGAL</span>
+          Debugging Therapist <span className="text-red-600">by Night</span>
           </p>
         </div>
 
@@ -93,11 +92,34 @@ function Landing() {
 
         {/* Social Links */}
         <div className="absolute flex items-center gap-6 top-8">
-          <FaTwitter className="w-6 h-6 hover:text-red-600 transition-colors cursor-pointer" />
-          <FaFacebookF className="w-6 h-6 hover:text-red-600 transition-colors cursor-pointer" />
-          <FaGithub className="w-6 h-6 hover:text-red-600 transition-colors cursor-pointer" />
-          <FaLinkedin className="w-6 h-6 hover:text-red-600 transition-colors cursor-pointer" />
-          <FaInstagram className="w-6 h-6 hover:text-red-600 transition-colors cursor-pointer" />
+          <a
+            href="https://www.facebook.com/share/15sYWa6UoH/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaFacebookF className="w-6 h-6 hover:text-red-600 transition-colors cursor-pointer" />
+          </a>
+          <a
+            href="https://github.com/mudassirsidiki"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaGithub className="w-6 h-6 hover:text-red-600 transition-colors cursor-pointer" />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/mudassirsidiki"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaLinkedin className="w-6 h-6 hover:text-red-600 transition-colors cursor-pointer" />
+          </a>
+          <a
+            href="https://www.instagram.com/mudassirsidiki/profilecard/?igsh=MWx1aGZwc2lnNWVybw== "
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaInstagram className="w-6 h-6 hover:text-red-600 transition-colors cursor-pointer" />
+          </a>
         </div>
       </div>
 
@@ -138,34 +160,30 @@ function Landing() {
             <span className="text-red-700 text-[25px]">Data Engineer</span>
           </h1>
           <p className="text-gray-400 max-w-md px-4">
-            AI/ML Engineer | Data Scientist | Passionate about Deep Learning,
-            NLP, and Computer Vision. Lorem ipsum dolor sit amet, consectetur
-            adipisicing elit. Sapiente veniam odit rerum commodi consequuntur
-            molestiae modi molestias, fuga quia dolor sit, nihil quam incidunt
-            eius voluptatem, totam qui iure alias! Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Dolores, rerum!
+              Innovative Web Developer & Data Analyst with a strong passion for
+              building modern, user-friendly web applications and data-driven
+              solutions. Proficient in React.js, Next.js, Tailwind CSS,
+              Express.js, and MongoDB for full-stack development, along with
+              expertise in Power BI, SQL, and Python for analytics and business
+              intelligence. <br />
+              With a keen eye for design and functionality, I specialize in
+              crafting seamless digital experiences, implementing dynamic UI/UX
+              components, and optimizing backend performance. My data analytics
+              expertise allows me to extract valuable insights, create
+              interactive dashboards, and develop data-driven strategies that
+              enhance decision-making.
           </p>
         </div>
 
         {/* Main Content */}
-        {/* Main Content - Animated Red Circle */}
         <div className="relative w-64 h-64">
-          {/* Glowing & Pulsing Red Circle */}
-          <div
-            className="absolute inset-0 rounded-full border-[10px] border-red-700 
-    shadow-[0_0_80px_rgba(255,78,88,0.5)] animate-glow"
-          ></div>
-
-          {/* Image Overlay */}
+          <div className="absolute inset-0 rounded-full border-[10px] border-red-700 shadow-[0_0_80px_rgba(280,78,88,0.5)]"></div>
           <img
             src="/images/port2.png"
             alt="Hooded Figure"
             className="absolute inset-0 w-full h-full object-contain"
           />
         </div>
-
-
-
       </div>
     </div>
   );
