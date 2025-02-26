@@ -140,7 +140,7 @@ function Landing() {
             <a
               key={item}
               href={`#${item.toLowerCase()}`}
-              className="mx-4 text-[13px] tracking-widest hover:text-red-600 transition-colors"
+              className="mx-4 text-[10px] tracking-widest hover:text-red-600 transition-colors"
             >
               {item}
             </a>

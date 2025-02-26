@@ -213,7 +213,6 @@ export const projects = [
     ],
     Version_Control: [
       'Git GitHub',
-      'CI/CD Pipelines',
       'Repository Management'
     ]
   };
@@ -222,12 +221,12 @@ export const projects = [
   
   export const skills1 = {
     Data_Analysis: [
-      'Python SQL',
+      'SQL',
       'Power BI Excel',
       'Numpy Pandas'
     ],
     Business_Intelligence: [
-      'Power BI Power Apps',
+      'Power BI',
       'DAX Power Query',
       'Data Visualization'
     ],
@@ -247,9 +246,9 @@ export const projects = [
   
     export const skills2 = {
       Database_Management: [
-        'MongoDB PostgreSQL',
-        'SQL DataVerse',
-        'Data Modeling'
+        'MongoDB ',
+        'SQL ',
+        'PostgreSQL'
       ],
       Automation_Tools: [
         'Power Automate',
@@ -263,7 +262,6 @@ export const projects = [
       ],
       Data_Visualization: [
         'Power BI Excel',
-        'Matplotlib Seaborn',
         'Advanced Reporting'
       ]
     };

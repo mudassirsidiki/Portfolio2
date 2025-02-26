@@ -2,23 +2,41 @@ import { AtSign, Github } from "lucide-react";
 
 const ContactSection = () => {
   return (
-    <div id="contact" className="max-w-[1180px] mx-auto px-4">
+    <div id="contact" className="max-w-[1280px] mx-auto px-4">
       <h2 className="text-4xl mt-8 font-extrabold mb-4">
-        <span className="text-red-600">#</span>ABOUT ME
+        <span className="text-red-600">#</span>ABOUT ME – More Than Just Code & Data
       </h2>
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 ">
         {/* Left Side - Contact Paragraph & About Me */}
         <div className="space-y-8">
           <p className="text-gray-400">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem omnis praesentium sint optio fugit ducimus placeat architecto vitae veritatis, similique sit hic dolorum nulla, reprehenderit harum mollitia odit porro tempora! <br />Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum officiis iste ad ab hic accusantium magni repellat, quas, debitis doloremque laudantium officia laboriosam. <br /> Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis sequi odio labore aut ad nulla, autem suscipit at ipsam assumenda harum consequatur quos consectetur impedit error fugit, repellendus aperiam consequuntur.
+            Hey there! I’m Muddasir, a tech geek who loves building things that
+            actually make an impact. Whether it’s crafting sleek web apps or
+            unraveling insights from data, I thrive on solving real-world
+            problems with technology. <br />
+            But beyond the screen? I’m a football fanatic, and if there’s one
+            thing I’ve learned from my idol Cristiano Ronaldo, it’s that hard
+            work beats talent when talent doesn’t work hard. Whether I’m coding,
+            analyzing trends, or scoring goals on the field, I bring the same
+            passion, dedication, and hunger to improve every single day. <br />
+            When I’m not debugging code or optimizing dashboards, you’ll
+            probably find me: 
+            <br />⚡ Playing or Watching football (SIUUU! 🐐) 
+            <br />⚡ Experimenting with new tech stacks 
+            <br />⚡ Hunting for the perfect UI animation 
+            <br />⚡ Tweaking my fantasy football lineup (because strategy matters everywhere 😆) 
+            
+            <br />
+
+            I’m always up for a challenge, a good conversation, and building
+            something awesome. Let’s connect and make things happen! 🚀
           </p>
 
           <div className="border border-gray-700 p-6 rounded-lg">
             <h1 className="text-[25px] mb-2">Contacts</h1>
             <p className="text-gray-400">
-            I'm interested in freelance opportunities. However, if you have
-            another request or question, don't hesitate to contact me.
+              If you have any request or question, don't hesitate to contact me.
             </p>
 
             <h3 className="text-lg mb-4 mt-6">Message me here</h3>
@@ -27,13 +45,13 @@ const ContactSection = () => {
                 href="#"
                 className="flex items-center gap-2 text-gray-400 hover:text-[#b49cff]"
               >
-                <AtSign size={16} /> Mubashirsidiki@gmail.com
+                <AtSign size={16} /> mudassirsidiki@gmail.com
               </a>
               <a
                 href="#"
                 className="flex items-center gap-2 text-gray-400 hover:text-[#b49cff]"
               >
-                <Github size={16} /> mubashirsidiki
+                <Github size={16} /> mudassirsidiki
               </a>
             </div>
           </div>
@@ -57,8 +75,6 @@ const ContactSection = () => {
           {/* <div className="absolute bottom-0 bg-[#1a1d21] p-2 rounded border border-gray-700 w-[300px] md:w-[300px] text-center">
             <p className="text-[21px] font-serif">🟣 Currently working at Mazik Global</p>
           </div> */}
-
-
         </div>
       </div>
     </div>
