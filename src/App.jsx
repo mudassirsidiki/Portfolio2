@@ -67,7 +67,7 @@ function App() {
           <div className="flex justify-between items-center mb-8">
             <h2 className="text-4xl font-extrabold"><span className="text-red-600">#</span>PROJECTS</h2>
           </div>
-          <div className="text-white mb-4 text-[20px] font-extrabold ">FRONTEND PROJECTS - REACT</div>
+          <div className="text-white mb-4 text-[25px] font-extrabold ">FRONTEND PROJECTS - REACT</div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {projects.map((project) => (
               <ProjectCard key={project.title} {...project} />
@@ -91,7 +91,7 @@ function App() {
 
         <div className="max-w-6xl mx-auto">
           <div className="flex justify-between items-center mb-8"></div>
-          <div className="text-white mb-4 text-[20px] font-extrabold ">FRONTEND PROJECTS - TAILWINDCSS</div>
+          <div className="text-white mb-4 text-[25px] font-extrabold ">FRONTEND PROJECTS - TAILWINDCSS</div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {projects1.map((project) => (
               <ProjectCard key={project.title} {...project} />
@@ -115,7 +115,7 @@ function App() {
 
         <div className="max-w-6xl mx-auto">
           <div className="flex justify-between items-center mb-8"></div>
-          <div className="text-white mb-4 text-[20px] font-extrabold ">FRONTEND PROJECTS - HTML , CSS AND JAVASCRIPT</div>
+          <div className="text-white mb-4 text-[25px] font-extrabold ">FRONTEND PROJECTS - HTML , CSS AND JAVASCRIPT</div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {projects4.map((project) => (
               <ProjectCard key={project.title} {...project} />
@@ -140,7 +140,7 @@ function App() {
 
         <div className="max-w-6xl mx-auto">
           <div className="flex justify-between items-center mb-8"></div>
-          <div className="text-white mb-4 text-[20px] font-extrabold ">DATA ANALYTICS PROJECTS - EXCEL , POWER BI , SQL</div>
+          <div className="text-white mb-4 text-[25px] font-extrabold ">DATA ANALYTICS PROJECTS - EXCEL , POWER BI , SQL</div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {projects2.map((project) => (
               <ProjectCard key={project.title} {...project} />
@@ -165,7 +165,7 @@ function App() {
 
         <div className="max-w-6xl mx-auto">
           <div className="flex justify-between items-center mb-8"></div>
-          <div className="text-white mb-4 text-[20px] font-extrabold ">BUSINESS ANALYTICS PROJECTS - EXCEL , POWER BI , SQL</div>
+          <div className="text-white mb-4 text-[25px] font-extrabold ">BUSINESS ANALYTICS PROJECTS - EXCEL , POWER BI , SQL</div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {projects3.map((project) => (
               <ProjectCard key={project.title} {...project} />
@@ -189,7 +189,7 @@ function App() {
 
         <div className="max-w-6xl mx-auto">
           <div className="flex justify-between items-center mb-8"></div>
-          <div className="text-white mb-4 text-[20px] font-extrabold ">BUSINESS ANALYTICS PROJECTS - SQL & PYTHON</div>
+          <div className="text-white mb-4 text-[25px] font-extrabold ">BUSINESS ANALYTICS PROJECTS - SQL & PYTHON</div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {projects5.map((project) => (
               <ProjectCard key={project.title} {...project} />
