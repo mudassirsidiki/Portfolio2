@@ -8,7 +8,7 @@ import Rectangles from "./components/Rectangles";
 import TypewriterEffect from "./components/TypewriterEffect";
 import ContactSection from "./components/ContactSection";
 import Landing from "./components/Landing";
-import { projects, projects1, projects2, projects3, projects4, projects5, skills, skills1, skills2, skills3 } from "./components/data";
+import { projects, projects1, projects2, projects3, projects4, projects5, skills, skills1, skills2 } from "./components/data";
 import BackToTop from "./BackToTop";
 
 function App() {
@@ -295,7 +295,7 @@ function App() {
         </div>
       </section>
 
-      <section className="py-3 px-6 relative" id="skills3">
+      {/* <section className="py-3 px-6 relative" id="skills3">
         <div className="max-w-6xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
             {Object.entries(skills3).map(([category, items]) => (
@@ -317,7 +317,7 @@ function App() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
 
 

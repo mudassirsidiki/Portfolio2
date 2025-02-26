@@ -196,72 +196,75 @@ export const projects = [
   
   
   
-    // Skills data
-    export const skills = {
-      Large_Language_Models: [
-        'TypeScript Lua',
-        'Python JavaScript',
-        'Mongo'
-      ],
-      High_Performance_Computing: [
-        'SQLite PostgreSQL',
-        'Mongo'
-      ],
-      Graphs: [
-        'VSCode NeoVim Linux',
-        'Figma XFCE Arch',
-        'Git Font Awesome'
-      ],
-      PostgreSQL: [
-        'React Vue',
-        'Discord.js',
-        'Flask Express.js'
-      ]
-    };
+  export const skills = {
+    Frontend_Development: [
+      'HTML CSS',
+      'JavaScript Tailwind CSS',
+      'React.js Next.js'
+    ],
+    Backend_Development: [
+      'Node.js Express.js',
+      'MongoDB SQL',
+      'PostgreSQL'
+    ],
+    UI_UX_Design: [
+      'Figma',
+      'User Experience Design'
+    ],
+    Version_Control: [
+      'Git GitHub',
+      'CI/CD Pipelines',
+      'Repository Management'
+    ]
+  };
   
   
-    export const skills1 = {
-      Databases: [
-        'TypeScript Lua',
-        'Python JavaScript',
-        'Mongo'
-      ],
-      BackEnd_Development: [
-        'SQLite PostgreSQL',
-        'Mongo'
-      ],
-      Deep_Learning: [
-        'VSCode NeoVim Linux',
-        'Figma XFCE Arch',
-        'Git Font Awesome'
-      ],
-      Neutral_Networks: [
-        'React Vue',
-        'Discord.js',
-        'Flask Express.js'
-      ]
-    };
+  
+  export const skills1 = {
+    Data_Analysis: [
+      'Python SQL',
+      'Power BI Excel',
+      'Numpy Pandas'
+    ],
+    Business_Intelligence: [
+      'Power BI Power Apps',
+      'DAX Power Query',
+      'Data Visualization'
+    ],
+    Cloud_Technologies: [
+      'Azure Cloud',
+      'Data Lake Storage',
+      'Databricks Synapse Analytics'
+    ],
+    Data_Engineering: [
+      'Apache Spark',
+      'Data Pipelining ETL',
+      'Data Cleaning Transformation'
+    ]
+  };
+  
   
   
     export const skills2 = {
-      Training: [
-        'TypeScript Lua',
-        'Python JavaScript',
-        'Mongo'
+      Database_Management: [
+        'MongoDB PostgreSQL',
+        'SQL DataVerse',
+        'Data Modeling'
       ],
-      Generative_AI: [
-        'SQLite PostgreSQL',
-        'Mongo'
+      Automation_Tools: [
+        'Power Automate',
+        'Azure Data Factory',
+        'Workflow Automation'
       ],
-      Computer_Vision: [
-        'VSCode NeoVim Linux',
-        'Figma XFCE Arch',
-        'Git Font Awesome'
+      Programming_Languages: [
+        'Python ',
+        'SQL ',
+        'JavaScript'
       ],
-      Frameworks: [
-        'React Vue',
-        'Discord.js',
-        'Flask Express.js'
+      Data_Visualization: [
+        'Power BI Excel',
+        'Matplotlib Seaborn',
+        'Advanced Reporting'
       ]
     };
   
